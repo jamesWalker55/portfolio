@@ -210,11 +210,11 @@ div.banner h2 {
 div.project {
     padding-bottom: 2em;
     display: grid;
-    grid-gap: 5px 5px;
     grid-template-areas:
         "head img"
         "para img";
     grid-template-columns: 1fr 10em;
+    grid-template-rows: 1.6em 1fr;
 }
 
 div.project > .head {
